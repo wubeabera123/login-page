@@ -17,7 +17,7 @@ import {BiSolidUser} from "react-icons/bi";
     return(
         <div>
            <div className="div1 bg-dark">
-              <div className="container div2 rounded bg-white mx-auto mt-5" style={{width:"60%", height:"85%"}}> 
+              <div className="container div2 rounded bg-white mx-auto mt-5" style={{width:"70%", height:"85%"}}> 
                  <form className="form1 d-block mx-auto" style={{width:"80%"}} onSubmit={handleSubmit}>
                      <h1 className="text-center fw-bold mt-3 pt-4">Login</h1>
                         <label for="username" class="form-label">Email address</label>
