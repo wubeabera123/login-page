@@ -10,16 +10,32 @@ body {
   box-sizing: border-box;
 }
 
-#username{
-  width: 50%;
-  height: 3rem;
+.person-icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 0.5rem;
+  transform: translateY(-50%);
 }
-#password{
-  width: 50%;
-  height: 3rem;
+.input-container{
+  position: relative;
+}
+input[type="text"] {
+  padding-left: 30px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+.lock-icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 0.5rem;
+  transform: translateY(-50%);
+}
+input[type="password"] {
+  padding-left: 30px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 .div1{
-  background-image: url("./Image/back.png");
   height: 100vh;
   padding-top: 20px;
 }
